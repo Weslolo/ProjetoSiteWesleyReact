@@ -16,7 +16,7 @@ function Ver() {
 
 
   return (<div>
-      <img src={_receita.imagem} />
+      <img className="imagem__ver" src={_receita.imagem} />
       <h3>{_receita.titulo}</h3>
       <p>{_receita.descricao}</p>
   </div>);
