@@ -1,0 +1,162 @@
+.banner__imagem {
+    height: calc(100vh - 72px);
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner__imagem__container {
+    height: calc(100vh - 72px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
+}
+
+.banner__imagem {
+    /* background: url('../../img/banner.jpg') no-repeat center / cover; */
+    width: 100%;
+}
+
+@media screen and (min-width: 0) {
+    .banner__imagem {
+        height: calc(100vh - 51px);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__imagem {
+        height: calc(100vh - 72px);
+    }
+}
+
+.banner__titulo {
+    color: white;
+    font-family: Pacifico, cursive;
+    font-size: 5.0625rem;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px rgb(65, 65, 65);
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+@media screen and (min-width: 0) {
+    .banner__titulo {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__titulo {
+        font-size: 5.0625rem;
+    }
+}
+
+.banner {
+    position: relative;
+}
+
+/* SOBRE */
+
+.sobre__descricao {
+    color: #595959;
+    font-weight: 100;
+}
+
+@media screen and (min-width: 0px) {
+    .sobre__descricao {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre__descricao {
+        font-size: 1.75rem;
+    }
+}
+
+.sobre__titulo {
+    color: black;
+    font-family: Pacifico, cursive;
+    font-size: 3.1875rem;
+}
+
+@media screen and (min-width: 0px) {
+    .sobre__titulo {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre__titulo {
+        font-size: 3.1875rem;
+    }
+}
+
+.sobre {
+    padding: 2.5rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 0) {
+    .sobre {
+        padding: 2.5rem 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre {
+        padding: 2.5rem;
+    }
+}
+
+/* RECEITAS */
+
+.receitas {
+    background: #e5e5e5e5;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 0 0 5rem;
+    justify-content: center;
+}
+
+@media screen and (min-width: 0) {
+    .receitas {
+        padding: 5rem 0 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .receitas {
+        padding: 5rem 0 0 2.5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .receitas {
+        padding: 5rem 0 0 5rem;
+    }
+}
+
+/* somos */
+
+.quem-somos__descricao {
+    font-weight: 100;
+    font-size: 1.75rem;
+    color: #000000;
+}
+
+.quem-somos__titulo {
+    margin-bottom: 1rem;
+    color: black;
+    font-family: Pacifico, cursive;
+    font-size: 3rem;
+}
+
+.quem-somos {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
