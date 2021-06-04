@@ -1,0 +1,26 @@
+.receita__container{
+display: flex;
+width: 100%;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.receita__imagem__container{
+    border:6px solid #620404;
+    height: 200px;
+    border-radius: 100%;
+    width: 200px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.receita__imagem__ver{
+    height: 202px;
+    border-radius: 100%;
+    width: 202px;
+    object-fit: cover;
+}
