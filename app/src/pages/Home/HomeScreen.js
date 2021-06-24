@@ -16,7 +16,7 @@ function HomeScreen() {
                 <div className="banner__imagem__container">
                 </div>
                 <img className="banner__imagem" src={banner} />
-                <h2 className="banner__titulo">Padaria sem gluten. </h2>
+                <h2 className="banner__titulo">Padaria sem glúten. </h2>
             </section>
             <section className="sobre">
                 <h2 className="sobre__titulo">Receitas para economizar e ganhar saúde</h2>
@@ -42,7 +42,7 @@ function HomeScreen() {
             <section className="quem-somos" id="text">
                 <h3 className="quem-somos__titulo">Quem somos</h3>
                 <p className="quem-somos__descricao">Conheça a comunidade por trás da iniciativa</p>
-                <p className="ui" >Somos pessoas Intolerantes a glutem e sempre prezamos a qualidades dos nossos ingredientes </p>
+                <p className="ui" >Somos pessoas Intolerantes a glútem e sempre prezamos a qualidades dos nossos ingredientes </p>
 
             </section>
 
