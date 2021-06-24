@@ -12,7 +12,7 @@ import receita8 from './assets/img/receita_id8.jpg';
 
 export default [
     {
-        id: 1,
+        id : 1,
         titulo: "Pão sem glútem",
         descricao: "Receita boa e cheia de vitaminas para seu café da manhã.",
         imagem: receita1,

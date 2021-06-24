@@ -1,7 +1,6 @@
 import React from 'react';
 import banner from '../../assets/img/banner.jpg';
 import "./HomeScreen.css";
-import FooterComponent from '../../components/footer/footerComponent';
 import CardComponent from '../../components/cards/cardComponent';
 // import { Container } from './styles';
 import receitas from '../../database';
@@ -46,7 +45,6 @@ function HomeScreen() {
                 <p className="ui" >Somos pessoas Intolerantes a glutem e sempre prezamos a qualidades dos nossos ingredientes </p>
 
             </section>
-            <FooterComponent />
 
         </div>);
 }
