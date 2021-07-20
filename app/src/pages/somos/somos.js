@@ -17,7 +17,7 @@ function Somos() {
         <p>Eu me chamo Wesley e vou contar minha história . </p>
 
 
-    <p>eu decidi criar esse site para tentar ajudar as pessoas que tem problemas com glúten pois tenho pessoas na minha família que é celíaca , e tento ajudar ao máximo as pessoas que tem esse problema .
+    <p>eu decidi criar esse site para tentar ajudar as pessoas que tem problemas com glúten , pois tenho pessoas na minha família que é celíaca , e tento ajudar ao máximo as pessoas que tem esse problema .
  </p>
 </p>
         <div className="pessoas">

@@ -3,6 +3,7 @@ import HomeScreen from './pages/Home/HomeScreen';
 import Receitas from './pages/receitas/Receitas';
 import Ver from './pages/Ver/Ver';
 import Somos from './pages/somos/somos';
+import Comunidade from './pages/comunidade/comunidade';
 import FooterComponent from './components/footer/footerComponent';
 import HeaderComponent from './components/header/Header';
 import './global.css';
@@ -33,6 +34,9 @@ function App() {
                 <Route exact path="/somos">
                     <Somos/>
                 </Route>
+                <Route exact path="/comunidade">
+                    <Comunidade/>
+                    </Route>
                 <Route component={() => {
                     return (<div style={{ height: '80vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}><p>404</p></div>)
                 }} />

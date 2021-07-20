@@ -19,8 +19,8 @@ function HeaderComponent() {
                         <li className="menu__item"> <NavLink exact to="/"   activeClassName="ativo"  className="menu__link" >Início </NavLink></li>
                         <li className="menu__item"> <NavLink   to="/receitas" activeClassName="ativo" className="menu__link" >Receitas </NavLink></li>
                         <li className="menu__item"> <NavLink   to="/somos" activeClassName="ativo" className="menu__link" >Quem somos </NavLink></li>
-                      
-                        <li className="menu__item"><a className="menu__link" > Comunidade </a></li>
+                        <li className="menu__item"> <NavLink   to="/comunidade" activeClassName="ativo" className="menu__link" >Comunidade </NavLink></li>
+                       
                     </ul>
                 </nav>
             </header>

@@ -1,0 +1,21 @@
+.logoa {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.p {
+    margin-bottom: 1rem;
+    color: #9e0f0f;
+    font-family: Pacifico, cursive;
+    font-size: 3rem;
+    padding-top: 5px;
+}
+
+ion-icon {
+    font-size: 64px;
+    padding: 14rem 1rem ;
+    transition: all ease-in-out .3s;
+}
+ion-icon:hover{
+    transform: scale(1.2,1.2);
+}
